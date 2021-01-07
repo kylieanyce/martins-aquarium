@@ -1,0 +1,15 @@
+@import "./fish.css";
+
+.contentArticle {
+    background-color: seagreen;
+}
+.contentContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    display: flex;
+}
+.footer {
+    display: flex;
+}

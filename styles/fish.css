@@ -1,0 +1,9 @@
+.fishCard {
+    border: 2px dotted black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fishCard__img {
+    width: 10%;
+}
