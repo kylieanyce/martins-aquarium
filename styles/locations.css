@@ -1,4 +1,11 @@
-.fishCard {
+.containerLeft__travelLocations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.locationCard {
     border: 2px dotted black;
     display: flex;
     flex-direction: column;
@@ -10,16 +17,8 @@
     text-align: center;
     padding: 0 40px;
 }
-.fishCard__img {
+
+.locationCard__img {
     width: 100%;
     padding-bottom: 10px;
-}
-.fishCard__name {
-    font-weight: bold;
-}
-.containerLeft__fishList {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    margin: 10px 3px;
-    background-color: orange;
 }

@@ -1,0 +1,19 @@
+.containerRight {
+    background-color: yellowgreen;
+}
+
+.containerRight__tips {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+}
+
+.tips {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 5px;
+    background-color: darksalmon;
+}

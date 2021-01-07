@@ -1,15 +1,24 @@
+@import "./header.css";
+@import "./footer.css";
 @import "./fish.css";
+@import "./quotes.css";
+@import "./locations.css";
+@import "./tips.css";
 
 .contentArticle {
-    background-color: seagreen;
+    background-color: mediumseagreen;
 }
+
 .contentContainer {
     display: flex;
     justify-content: space-between;
+    background-color: mediumseagreen;
 }
-.header {
-    display: flex;
+
+.containerLeft {
+    flex-basis: 75%;
 }
-.footer {
-    display: flex;
+
+.containerRight {
+    flex-basis: 25%;
 }

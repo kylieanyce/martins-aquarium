@@ -1,0 +1,15 @@
+.containerLeft__travelQuotes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+
+}
+
+.quoteCard {
+    border: black solid 2px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 3px;
+    background-color: deepskyblue;
+}

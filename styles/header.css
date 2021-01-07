@@ -1,0 +1,18 @@
+header {
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    border: solid black 2px;
+    background-color: deepskyblue;
+    text-align: center;
+    padding: 50px 100px 0px;
+
+}
+
+nav {
+    border: solid black 2px;
+    background-color: mediumseagreen;
+    
+}
