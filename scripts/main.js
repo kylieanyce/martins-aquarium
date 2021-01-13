@@ -1,10 +1,10 @@
-import { useFish } from './FishDataProvider.js'
+import { useFish } from './fish/FishDataProvider.js';
+import { FishList } from './fish/FishList.js';
 
-const allTheFish = useFish()
+const allTheFish = useFish();
 
-for (const fish of allTheFish) {
-    console.log(fish)
-}
+
 
 // Import the FishList here
-import { FishList() } from './FishList.js'
+
+FishList();
