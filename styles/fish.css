@@ -4,15 +4,16 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    flex: 1 0;
     background-color: deepskyblue;
     margin: 5px;
     text-align: center;
     padding: 0 40px;
+    flex: 1 0;
 }
 .fishCard__img {
     width: 100%;
     padding-bottom: 10px;
+    max-width: 400px;
 }
 .fishCard__name {
     font-weight: bold;
