@@ -1,27 +1,19 @@
 import { useTips } from "./TipDataProvider.js";
-import { Tip } from "./Tip.js";
+import { Tip } from "./tips.js";
 
 
 export const TipList = () => {
 
-    const contentElement = document.querySelector(".containerLeft__fishList");
-    const fishes = useTips();
+    const contentElement = document.querySelector(".containerRight__tips");
+    const tips = useTips();
 
-    // Generate all of the HTML for all of the fish
     let tipHTMLRepresentations = ""
-    for (const fish of fishes) {
-        fishHTMLRepresentations += Fish(fish)
-        /*
-            Invoke the Fish component function
-            and pass the current fish object as an argument.
-            Each time, add the return value to the
-            fishHTMLRepresentations variable with `+=`
-        */
+    for (const tip of tips) {
+        tipHTMLRepresentations += Tip(tip)
     }
-    // Add to the existing HTML in the content element
     contentElement.innerHTML += `
-        <article class="fishList">
-        ${fishHTMLRepresentations}
+        <article class="containerRight__tipCard">
+        ${tipHTMLRepresentations}
         </article>
     `
 }

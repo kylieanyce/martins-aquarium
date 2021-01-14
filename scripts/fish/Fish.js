@@ -1,6 +1,3 @@
-/**
- *  Fish which renders individual fish objects as HTML
- */
 export const Fish = (fish) => {
     return `
         <section class="fishCard">

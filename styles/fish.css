@@ -10,7 +10,7 @@
     padding: 0 40px;
     flex: 1 0;
 }
-.fishCard__img {
+.fishCard__image {
     width: 100%;
     padding-bottom: 10px;
     max-width: 400px;
@@ -18,9 +18,9 @@
 .fishCard__name {
     font-weight: bold;
 }
-.containerLeft__fishList {
+.containerLeft__fishCards {
     display: flex;
     flex-wrap: wrap-reverse;
     margin: 10px 3px;
-    background-color: orange;
+    background-color: mediumseagreen;
 }
