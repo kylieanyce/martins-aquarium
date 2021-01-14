@@ -1,4 +1,4 @@
-.containerLeft__travelLocations {
+.locationsList {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -18,7 +18,7 @@
     padding: 0 40px;
 }
 
-.locationCard__img {
+.locationCard__image {
     width: 100%;
     padding-bottom: 10px;
 }
