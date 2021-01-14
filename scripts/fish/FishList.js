@@ -10,7 +10,6 @@ export const FishList = () => {
     let fishHTMLRepresentations = ""
     for (const fish of fishes) {
         fishHTMLRepresentations += Fish(fish)
-
     }
     contentElement.innerHTML += `
         <article class="containerLeft__fishCards">
