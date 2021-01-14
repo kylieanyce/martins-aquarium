@@ -2,7 +2,7 @@
     background-color: yellowgreen;
 }
 
-.containerRight__tips {
+.containerRight__tipCard {
     margin-right: 40px;
     display: flex;
     flex-direction: column;
@@ -16,4 +16,5 @@
     text-align: center;
     margin: 20px 5px;
     background-color: darksalmon;
+    padding: 10px;
 }
